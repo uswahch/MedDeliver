@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/skel.min.js"></script>
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/util.js"></script>
+    <script src="~/Scripts/jquery.poptrox.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Med Deliver</title>
+    <link href="~/Content/main.css" rel="stylesheet" />
+
+    <link href="~/Content/component.css" rel="stylesheet" />
+    <script></script>
+    <style>
+
+
+
+
+
+
+
+
+
+
+        #section1 {
+            padding-top: 120px;
+            height: 200%;
+            color: #fafafa;
+            background-color: rgba(49, 50, 49, 0.97);
+        }
+
+        #section2 {
+            padding-top: 120px;
+            height: 200%;
+            color: #fafafa;
+            background-color: rgba(49, 50, 49, 0.97);
+        }
+
+        #section3 {
+            padding-top: 120px;
+            height: 200%;
+            color: #fafafa;
+            background-color: rgba(49, 50, 49, 0.97);
+        }
+
+        #section41 {
+            padding-top: 120px;
+            height: 200%;
+            color: #fafafa;
+            background-color: rgba(49, 50, 49, 0.97);
+        }
+
+        #section42 {
+            padding-top: 120px;
+            height: 200%;
+            color: #fafafa;
+            background-color: rgba(49, 50, 49, 0.97);
+        }
+        .how-it-works {
+            background: #f5f5fa;
+            padding-bottom: 30px;
+        }
+
+        .board {
+            /*width: 75%;
+	margin: 60px auto;
+	margin-bottom: 0;
+	box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
+        }
+
+            .board .nav-tabs {
+                position: relative;
+                /* border-bottom: 0; */
+                /* width: 80%; */
+                margin: 40px auto;
+                margin-bottom: 0;
+                box-sizing: border-box;
+            }
+
+            .board > div.board-inner > .nav-tabs {
+                border: none;
+            }
+
+        p.narrow {
+            width: 60%;
+            margin: 10px auto;
+        }
+
+        .liner {
+            height: 2px;
+            background: #ddd;
+            position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 50%;
+            z-index: 1;
+        }
+
+        .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+            color: #555555;
+            cursor: default;
+            /* background-color: #ffffff; */
+            border: 0;
+            border-bottom-color: transparent;
+            outline: 0;
+        }
+
+        span.round-tabs {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            display: inline-block;
+            border-radius: 100px;
+            background: white;
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            text-align: center;
+            font-size: 25px;
+        }
+
+            span.round-tabs.one {
+                border: 2px solid #ddd;
+                color: #ddd;
+            }
+
+        li.active span.round-tabs.one, li.active span.round-tabs.two, li.active span.round-tabs.three, li.active span.round-tabs.four, li.active span.round-tabs.five {
+            background: #69cb95 !important;
+            border: 2px solid #69cb95;
+            color: #fff;
+        }
+
+        span.round-tabs.two {
+            border: 2px solid #ddd;
+            color: #ddd;
+        }
+
+        span.round-tabs.three {
+            border: 2px solid #ddd;
+            color: #ddd;
+        }
+
+        span.round-tabs.four {
+            border: 2px solid #ddd;
+            color: #ddd;
+        }
+
+        span.round-tabs.five {
+            border: 2px solid #ddd;
+            color: #ddd;
+        }
+
+        .nav-tabs > li.active > a span.round-tabs {
+            background: #fafafa;
+        }
+
+        .nav-tabs > li {
+            width: 20%;
+        }
+
+            .nav-tabs > li a {
+                width: 70px;
+                height: 70px;
+                margin: 20px auto;
+                border-radius: 100%;
+                padding: 0;
+            }
+
+                .nav-tabs > li a:hover {
+                    background: transparent;
+                }
+
+        .tab-content {
+        }
+
+        .tab-pane {
+            position: relative;
+            padding-top: 50px;
+        }
+
+        .btn-outline-rounded {
+            padding: 10px 40px;
+            margin: 20px 0;
+            border: 2px solid transparent;
+            border-radius: 25px;
+        }
+
+        .btn.green {
+            background-color: #69cb95;
+            /*border: 2px solid #5cb85c;*/
+            color: #ffffff;
+        }
+
+       
+
+            .board {
+                width: 90%;
+                height: auto !important;
+            }
+
+            span.round-tabs {
+                font-size: 16px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+            }
+
+            .tab-content .head {
+                font-size: 20px;
+            }
+
+            .nav-tabs > li a {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+            }
+
+            li.active:after {
+                content: " ";
+                position: absolute;
+                left: 35%;
+            }
+
+            .btn-outline-rounded {
+                padding: 12px 20px;
+            }
+        
+
+
+
+       h1 {
+            color: white;
+            font-size: 40px;
+            margin-left: 10px;
+        }
+
+
+        .highlight {
+            display: block;
+            position: relative;
+            /*min-height: 800px;*/
+            min-height: 520px;
+            background-repeat: no-repeat;
+            /*padding-top: 200px;*/
+            padding-top: 80px;
+            /*background-size: cover;*/
+        }
+
+
+        .highlight {
+            position: relative;
+            height: 900px;
+            cursor: pointer;
+            background-size: auto 110%;
+            background-position: center center;
+            -moz-transition: background-size 3s ease;
+            -webkit-transition: background-size 3s ease;
+            transition: background-size 3s ease;
+        }
+
+            .highlight:hover {
+                background-size: auto 130%;
+                background-color: white;
+                -moz-transition: background-size 3s ease;
+                -webkit-transition: background-size 3s ease;
+                transition: background-size 3s ease;
+            }
+
+            .highlight:before {
+                content: ' ';
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.23); /*ye*/
+                -moz-transition: background-color 3s ease;
+                -webkit-transition: background-color 3s ease;
+                transition: background-color 3s ease;
+            }
+
+            .highlight:hover:before {
+                background-color: rgba(0, 0, 0, 0.23); /*ye*/
+                -moz-transition: background-color 3s ease;
+                -webkit-transition: background-color 3s ease;
+                transition: background-color 3s ease;
+            }
+
+    </style>
+
+</head>
+
+<body style="background-color: rgba(41, 43, 43, 0.25);">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(49, 50, 49, 0.97); border-color: rgba(49, 50, 49, 0.94); height: 65px; border-radius: 0; ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <p class="navbar-brand" style="font-family: Gabriola; font-size: 30px; font-size: 40px; text-transform: uppercase; color: #34a58e;margin-top:10px; text-shadow: rgba(12, 12, 12, 0.5) 0 0 15px, rgba(34, 0, 218, 0.5) 0 0 10px; ">Med<span class="glyphicon glyphicon-plus" style="color: firebrick; font-size: 25px;"></span>Deliver </p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right" style="margin-right: 3%; background-color: rgba(49, 50, 49, 0.8)">
+                <li class="dropdown">
+                    <a href="#" onmouseover="    this.style.color = ' #34a58e'" onmouseout="    this.style.color = ' whitesmoke'" class="dropdown-toggle" data-toggle="dropdown" style=" font-family: Gabriola; color: whitesmoke; font-size: 20px; margin-top: 10px;"><span class="glyphicon glyphicon-user" style="color: #34a58e; font-size: 15px;"></span>Account<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" style="background-color: rgba(49, 50, 49, 0.9);">
+                        <li><a href="#" style="color:white;">Setting</a></li>
+                        <li><a href="#" style="color:white;">LogOut</a></li>
+
+                    </ul>
+            </ul>
+        </div>
+    </div>
+
+   
+    <div>
+        @RenderBody()
+    </div>
+    <div id="wrapper">
+
+        <!-- Header -->
+        <div class="footer" style="background-color: rgba(49, 50, 49, 0.98); height: 78px;width:101% ">
+            <h1><a href="#" style="text-decoration:none;"><strong>Med-Deliver</strong></a></h1>
+            <nav>
+
+                <ul>
+                    <!--<img src="/images/skypecal.gif" width="100" height="60"style="margin: -15px 1px -5px 0px; border-radius:30px;border-color:whitesmoke;" />-->
+                    <li style="color:white; margin-right:500px;">
+                        <div id="SkypeButton_Call_meddeliver83_1">
+                            <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                            <script type="text/javascript">
+                                Skype.ui({
+                                    "name": "call",
+                                    "element": "SkypeButton_Call_meddeliver83_1",
+                                    "participants": ["meddeliver83"]
+                                });
+                            </script>
+                        </div>
+                    </li>
+                    <li><a href="#footer" class="icon fa-arrow-circle-up" style="text-decoration:none;">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer id="footer" class="panel">
+            <div class="inner split">
+                <div>
+                    <section>
+                        <h2>ABOUT US</h2>
+                        <p>We are the path between the medical stores and the user, to provide medicines on the door step of user..</p>
+                    </section>
+                    <section>
+                        <h2>Contact Us On ...</h2>
+                        <ul class="icons">
+
+
+                            <li><a href="https://www.facebook.com/" class="icon fa-facebook" style="text-decoration:none; "><span class="label"></span></a></li>
+                            <!--meddeliver83@gmail.com Allahis1-->
+                            <li><a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1" class="icon fa-envelope" style="text-decoration:none;"><span class="label"></span></a></li>
+                            <li><a href="https://login.yahoo.com/?.src=ym&.intl=us&.lang=en-US&.done=https%3a//mail.yahoo.com" class="icon fa-yahoo" style="text-decoration:none; "><span class="label"></span></a></li>
+                            <li><a href="https://twitter.com/?lang=en" class="icon fa-twitter" style="text-decoration:none; "><span class="label"></span></a></li>
+
+                        </ul>
+                    </section>
+                    <p class="copyright" style="color: #a8a8bf">
+                        &copy; 2016 &nbsp;<a href="#" style="color: #a8a8bf; ">Med-Deliver </a>.
+                    </p>
+                </div>
+                <div>
+                    <section>
+                        <h2>Feed Back</h2>
+                        <form method="post" action="#">
+                            <div class="field half first">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                            </div>
+                            <div class="field half">
+                                <input type="text" name="email" id="email" placeholder="Email" />
+                            </div>
+                            <div class="field">
+                                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send" class="special" /></li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
